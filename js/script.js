@@ -70,7 +70,7 @@ navTogglerBtn.addEventListener("click", () => {
 
 function asideSectionTogglerBtn() {
     aside.classList.toggle("open");
-    navTogglerBtn.classList.toggle("open")
+    navTogglerBtn.classList.toggle("open");
     for (let i = 0; i < totalSections; i++) {
         allSection[i].classList.toggle("open");
     }
